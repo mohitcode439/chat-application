@@ -23,7 +23,7 @@ const io = new Server(server, {
   cors: {
     origin:
       process.env.NODE_ENV === "production"
-        ? ["https://chat-application-tan-seven.vercel.app"]
+        ? ["https://chat-application-tan-seven.vercel.app","https://social-animals-chat-application.vercel.app"]
         : "http://localhost:3000",
     methods: ["GET", "POST"],
   },
